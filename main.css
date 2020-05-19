@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+}
+
+.neuron {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border-radius: 100%;
+    z-index: 2;
+    position: relative;
+}
+
+#out {
+    margin-top: 48px;
+}
+
+.line {
+    margin-top: 48px;
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+}
+
+
+/* 
+Invisble */
+
+.inv {
+    opacity: 0;
+}
+
+
+/* 
+Slanting lines positive and negative */
+
+.slantn {
+    margin-top: 100px;
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+    transform: rotate(20deg);
+}
+
+.slantp {
+    margin-top: 0px;
+    height: 4px;
+    width: 100%;
+    background-color: black;
+    z-index: 0;
+    position: relative;
+    transform: rotate(-20deg);
+}
